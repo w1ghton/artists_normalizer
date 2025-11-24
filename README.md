@@ -25,6 +25,3 @@ python main.py
 ```
 
 You should to enter the absolute path to the folder.
-
-# Warning
-Currently the program doesn't work with iTunes-style atoms (.m4a, .mp4, .alac etc.)
