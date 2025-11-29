@@ -47,5 +47,8 @@ def change_artist(file_path: str):
 
 
 if __name__ == "__main__":
-    path = os.path.abspath(input("Folder with music: "))
-    search_music(path)
+    try:
+        path = os.path.abspath(input("Folder with music: "))
+        search_music(path)
+    except KeyboardInterrupt:
+        print("Exiting...")
